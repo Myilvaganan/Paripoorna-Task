@@ -1,0 +1,28 @@
+.form {
+    margin-top: 3rem;
+    border: 1.5px solid rgba(0, 0, 0, 0.541);
+    padding: 2rem;
+    position: relative;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form::before {
+    content: "Registration";
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    padding: 0 10px;
+    font-weight: 700;
+}
+
+.fileInput {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}

@@ -1,0 +1,17 @@
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: contain;
+    transition: transform;
+    
+}
+
+
+.action {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center ;
+    align-content: center ;
+
+}
